@@ -690,9 +690,15 @@ label{
     height: 350px;
     background-color: white;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-image: url('../images/QR.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 
 
 #contact{
