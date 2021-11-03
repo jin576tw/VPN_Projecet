@@ -221,6 +221,18 @@ label{
 
 }
 
+@media (max-width: 1025px) { 
+
+
+    .Banner{
+
+        height: 800px;
+
+
+    }
+
+}
+
 
 @media (max-width: 767px) {
 
@@ -515,6 +527,16 @@ label{
 
 }
 
+.More_intro_pic img{
+    height: 100%;
+    object-fit: contain;
+
+}
+
+#introPic02{
+    transform:  scale(1.2);
+}
+
 .More_intro_pic video{
 
     object-fit: fill;
@@ -744,6 +766,34 @@ label{
     bottom: -20px;
 }
 
+
+@media (max-width: 1025px) { 
+
+
+    .Demo{
+
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 180px;
+        color: white;
+        background-image: linear-gradient(to top, #232c6b, #237eb4 90%);
+    
+    }
+
+
+    .Contact{
+
+        height: 1200px;
+        padding-top: 60px;
+
+
+    }
+
+    .Contact_title{
+        margin-top: 0px;
+    }
+
+}
 
 @media (max-width: 767px) {
 

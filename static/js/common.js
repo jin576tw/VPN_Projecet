@@ -7,19 +7,19 @@ $(window).scroll(function () {
 
     const ZoomIn = `animate__animated animate__zoomIn`
 
-    const flash = `animate__animated animate__flash`
+
 
 
    
 
     if(scrollNow > 0){
 
-        $('.Banner_title').removeClass(flash);
+        $('.Banner_title').removeClass(fadeIn);
 
 
     }else{
 
-        $('.Banner_title').addClass(flash);
+        $('.Banner_title').addClass(fadeIn);
 
     }
 
