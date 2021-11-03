@@ -1,3 +1,17 @@
+
+$('.contactUs_btn , .learnMore_btn').click(function(){
+
+    
+
+    $("html, body").animate({ 
+
+        scrollTop: $('#Contact').offset().top 
+
+    }, 1 ,'swing');
+
+})
+
+
 $(window).scroll(function () {
     
     let scrollNow = $(window).scrollTop();

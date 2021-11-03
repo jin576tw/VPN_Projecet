@@ -13,6 +13,7 @@
 }
 
 .Navbar_logo{
+    cursor: pointer;
     width: 150px;
     height: 30px;
     background-image: url('../images/odinvpn-logo.svg');
