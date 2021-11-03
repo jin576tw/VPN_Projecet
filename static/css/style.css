@@ -85,6 +85,10 @@ label{
 @media (max-width: 1025px) { }
 
 
+.animate__animated.animate__flash {
+    --animate-duration: 2.5s;
+}
+
 
 /* ////////////// Banner///////////////////////*/
 
@@ -94,7 +98,7 @@ label{
     background-color: var(--dark_blue);
     background-image: url('../images/bg01.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     padding-top: 200px;
     display: flex;
@@ -189,6 +193,7 @@ label{
 
 .contactUs_btn{
     margin-top: 80px;
+   
     width: 210px;
     height: 48px;
     border-radius: 44.5px;
@@ -382,8 +387,8 @@ label{
 
  .Table{
      width: 100%;
-     height: 100vh;
-     background-image: linear-gradient(to top, #005e8c, #237eb4 11%);
+     /* height: 100vh; */
+     background-image: linear-gradient(to top, #005e8c, #237eb4 10%);
      padding-top: 120px;
     
 
@@ -393,6 +398,7 @@ label{
      display: flex;
      flex-direction: column;
      align-items: center;
+     padding-bottom: 120px;
  }
 
  .Table_title{
@@ -412,7 +418,7 @@ label{
     width: 90%;
     min-height: 400px;
 
-    background-image: url('../images/table.png');
+    background-image: url('../images/table@2.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -445,7 +451,7 @@ label{
     .Table_pic{
         width: 90%;
         min-height: 300px;
-        background-image: url('../images/table@2.png');
+        background-image: url('../images/table-m@2.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -460,6 +466,10 @@ label{
 
     width: 100%;
     background-color: var(--deep_blue);
+    background-image: url('../images/bg02.png');
+    background-size: contain;
+    background-position:  center bottom;
+    background-repeat: no-repeat;
     padding-top: 120px;
     padding-bottom: 250px;
 }
@@ -495,10 +505,22 @@ label{
 .More_intro_pic{
     width: 30%;
     height: 380px;
+    display: flex;
     border-radius: 20px;
-    background-color: white;
+    
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+   
 
 }
+
+.More_intro_pic video{
+
+    object-fit: fill;
+}
+
+
 .More_intro_text{
     width: 30%;
     
@@ -580,9 +602,9 @@ label{
 
     width: 100%;
     padding-top: 120px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     color: white;
-    background-image: linear-gradient(to top, #005e8c, #237eb4 -14%);
+    background-image: linear-gradient(to top, #232c6b, #237eb4 90%);
 
 }
 .Demo_title h1{
@@ -598,7 +620,7 @@ label{
 
 
 .remoteDesktop_intro{
-    margin-top: 100px;
+    margin-top: 120px;
     text-align: center;
 }
 
@@ -625,6 +647,16 @@ label{
 }
 
 @media (max-width: 767px) {
+
+    .Demo{
+
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 60px;
+        color: white;
+        background-image: linear-gradient(to top, #232c6b, #237eb4 70%);
+    
+    }
 
 
     .Demo_content{
@@ -654,10 +686,11 @@ label{
 .Contact{
 
     width: 100%;
-    height: 100vh;
-    padding-top: 120px;
-    background-image: url('../images/bg02.png');
+    height: 160vh;
+    padding-top: 200px;
+    background-image: url('../images/bgunder.png');
     background-repeat: no-repeat;
+    background-color:#232c6b;
     background-size: cover;
     background-position: bottom;
     color: white;
@@ -667,6 +700,10 @@ label{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+.Contact_title{
+    margin-top: 120px;
 }
 .Contact_title h1{
     
@@ -709,6 +746,22 @@ label{
 
 
 @media (max-width: 767px) {
+
+    .Contact{
+
+        width: 100%;
+        height: 100vh;
+        padding-top: 110px;
+        background-image: url('../images/bgunder.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        color: white;
+    }
+
+    .Contact_title{
+        margin-top: 0px;
+    }
 
 
     .Contact_title h1{

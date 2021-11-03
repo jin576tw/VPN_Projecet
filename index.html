@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OdinVPN</title>
 
+   <!-- boostrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous"/>
 
+    <!--animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/78ff172cd0.js" crossorigin="anonymous"></script>
 
+    <!-- css -->
     <link rel="stylesheet" href="./static/css/style.css" />
     <link rel="stylesheet" href="./static/css/navbar.css" />
     <link rel="stylesheet" href="./static/css/footer.css" />
@@ -30,7 +34,7 @@
 
             <div class="Banner_content">
 
-                <div class="Banner_title">
+                <div class="Banner_title animate__animated  animate__flash">
                     <h1>最極速，優質首選VPN</h1>
                     <h2>最成熟的技術，最理想的價格，無頻寬限制的絕佳體驗</h2>
                 </div>
@@ -50,7 +54,10 @@
                     
                 </div> 
 
-                <button class="contactUs_btn">聯絡專員</button>
+                <a href="#Contact">
+                <button class="contactUs_btn">
+                    聯絡專員
+                </button></a>
 
 
 
@@ -76,21 +83,21 @@
 
                 <div class="Intro_box">
                     <div class="Intro_box_img">
-                        <img src="./static/images/p01.svg" alt="">
+                        <img src="./static/images/p01.png" alt="">
                     </div>
                     <h1>提供各國VPN</h1>
                     <p>提供各國VPN，支援更換IP。提供各國VPN，支援更換IP。提供各國VPN，支援更換IP。提供各國VPN，支援更換IP。</p>
                 </div>
                 <div class="Intro_box">
                     <div class="Intro_box_img">
-                        <img src="./static/images/p02.svg" alt="">
+                        <img src="./static/images/p02.png" alt="">
                     </div>
                     <h1>VPN伺服器資源</h1>
                     <p>無須跟別的使用者共享同個VPN伺服器資源。無須跟別的使用者共享同個VPN伺服器資源。</p>
                 </div>
                 <div class="Intro_box">
                     <div class="Intro_box_img">
-                        <img src="./static/images/p03.svg" alt="">
+                        <img src="./static/images/p03.png" alt="">
                     </div>
                     <h1>速度頻寬</h1>
                     <p>速度頻寬提供達1Gbps的頻寬。速度頻寬提供達1Gbps的頻寬。速度頻寬提供達1Gbps的頻寬。</p>
@@ -117,7 +124,7 @@
 
                 <div class="Table_pic"></div>
 
-                <button class="contactUs_btn">聯絡專員</button>
+                <a href="#Contact"><button class="contactUs_btn">聯絡專員</button></a>
 
             </div>
 
@@ -126,7 +133,7 @@
     </section>
 
 
-    <section class="More_intro">
+    <section class="More_intro" id="More_intro">
 
         <div class="container">
             <div class="More_intro_warp">
@@ -143,17 +150,22 @@
                         <div class="More_intro_text" >
                             <h2>無限數量設備使用</h2>
                             <p>產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。</p>
-                            <button class="learnMore_btn">了解更多</button>
+                            <a href="#Contact"><button class="learnMore_btn">了解更多</button></a>
                         </div>
-                        <div class="More_intro_pic"></div>
+                        <div class="More_intro_pic" id="introPic01">
+                            <img src="./static/images/i01.png" alt="">
+                        </div>
                     </div>
                     <div class="More_intro_box" id="intro02">
                        
-                        <div class="More_intro_pic"></div>
+                        <div class="More_intro_pic" id="introPic02">
+                            <img src="./static/images/i02.png" alt="">
+
+                        </div>
                         <div class="More_intro_text">
                             <h2>多個國家使用</h2>
                             <p>產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。</p>
-                            <button class="learnMore_btn">了解更多</button>
+                            <a href="#Contact"><button class="learnMore_btn">了解更多</button></a>
                         </div>
                     </div>
 
@@ -179,7 +191,11 @@
             <div class="Demo_content">
                 <div class="More_intro_box" id="Demo_intro">
                         
-                    <div class="More_intro_pic"></div>
+                    <div class="More_intro_pic">
+                        <video autoplay muted loop  >
+                            <source src="./static/videos/sample01.mov" type="video/mp4"> 
+                       </video>
+                    </div>
                     <div class="More_intro_text">
                         <h2>展示產品的使用畫面</h2>
                         <p>產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。產品能夠在無限數量設備使用、且能在多個國家使用。</p>
@@ -203,10 +219,10 @@
     </section>
 
 
-    <section class="Contact" id="Contact">
+    <section class="Contact">
         <div class="container">
 
-            <div class="Contact_warp">
+            <div class="Contact_warp" id="Contact">
 
                 <div class="Contact_title">
 
