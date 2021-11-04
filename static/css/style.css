@@ -94,11 +94,11 @@ label{
 }
 
 
-.bounce2 {
-    animation: bounce2 2s ease infinite;
+.bounce {
+    animation: bounce 2s ease infinite;
 
 }
-@keyframes bounce2 {
+@keyframes bounce {
     0%,   100% {transform: translateY(0);}
     30% {transform: translateY(-10px);}
     70% {transform: translateY(-12px);}
