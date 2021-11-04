@@ -94,6 +94,17 @@ label{
 }
 
 
+.bounce2 {
+    animation: bounce2 2s ease infinite;
+
+}
+@keyframes bounce2 {
+    0%,   100% {transform: translateY(0);}
+    30% {transform: translateY(-10px);}
+    70% {transform: translateY(-12px);}
+}
+
+
 /* ////////////// Banner///////////////////////*/
 
 .Banner{
