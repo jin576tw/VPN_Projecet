@@ -227,6 +227,7 @@ label{
 }
 .learnMore_btn{
 
+    margin-top: 15px;
     width: 210px;
     height: 48px;
     border-radius: 44.5px;
@@ -598,7 +599,11 @@ label{
         
     }
 
+    
+ 
+
     .More_intro_box{
+       
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -617,21 +622,21 @@ label{
 
 
     .More_intro_content{
-        margin-top: 60px;
+        margin-top: 25px;
         width: 100%;
     }
 
 
 
     .More_intro_pic{
-        width: 90%;
-        height: 380px;
+        width: 70%;
+        height: 300px;
        
     
     }
 
     .More_intro_text{
-        margin-top: 40px;
+        margin-top: 50px;
         width: 90%
         
     }
