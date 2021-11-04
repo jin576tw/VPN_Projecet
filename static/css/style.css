@@ -147,17 +147,26 @@ label{
     width: 60%;
     height: 150px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
+    
+    
+}
+
+.Banner_userVpn_outline{
+
+    width: 30%;
+    height: 0%;
+    overflow: hidden;
     border-top: 0.2px solid white;
     border-bottom: 0.2px solid white;
+    transform: translateY(80px);
     
 }
 
 .Banner_userVpn_warp h3{
 
-
+    margin-top: 40px;
     font-size: 2.6rem;
 }
 
@@ -479,7 +488,7 @@ label{
 /* //////////////////更多特色////////// */
 
 .More_intro{
-
+    overflow: hidden;
     width: 100%;
     background-color: var(--deep_blue);
     background-image: url('../images/bg02.png');
@@ -631,7 +640,7 @@ label{
 /* 使用畫面 */
 
 .Demo{
-
+    position: relative;
     width: 100%;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -639,6 +648,7 @@ label{
     background-image: linear-gradient(to top, #232c6b, #237eb4 90%);
 
 }
+
 .Demo_title h1{
     text-align: center;
     font-size: 4rem;
@@ -678,10 +688,37 @@ label{
     background-color: white;
 }
 
+.ImgRock{
+    position: absolute;
+    width:240px;
+    height: 240px;
+    /* background-color: red; */
+    background-image: url('../images/0000.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#Rock01{
+    right: 0;
+    transform: rotate(-30deg);
+}
+#Rock02{
+    right: 15%;
+    bottom: -250px;
+    transform: rotate(30deg);
+}
+#Rock03{
+    top: 45%;
+    left: 0;
+    transform: rotate(-30deg);
+}
+
 @media (max-width: 767px) {
 
     .Demo{
-
+        /* overflow: hidden; */
         width: 100%;
         padding-top: 120px;
         padding-bottom: 60px;
@@ -711,7 +748,39 @@ label{
         background-color: white;
     }
 
+
+    .ImgRock{
+        position: absolute;
+        width:150px;
+        height: 150px;
+        /* background-color: red; */
+        background-image: url('../images/0000.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Rock01{
+        top: -10px;
+        right: 0;
+        transform: rotate(-30deg);
+    }
+    #Rock02{
+        right: 15%;
+        bottom: 0px;
+        transform: rotate(30deg);
+    }
+    #Rock03{
+        top: 50%;
+        left: 0;
+        transform: rotate(-30deg);
+    }
+
 }
+
+
+
 
 
 /* 聯絡專員 */

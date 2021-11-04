@@ -12,6 +12,21 @@ $('.contactUs_btn , .learnMore_btn').click(function(){
 })
 
 
+setTimeout(() => {
+
+   $('.Banner_userVpn_outline').css('width','100%').css('transition','0.8s')
+
+}, 5);
+setTimeout(() => {
+
+   $('.Banner_userVpn_outline').css('width','100%').css('transform','translateY(0px)').css('transition','0.8s')
+
+   $('.Banner_userVpn_outline').css('height','100%').css('transition','0.8s')
+
+}, 650);
+
+
+
 $(window).scroll(function () {
     
     let scrollNow = $(window).scrollTop();
@@ -29,11 +44,13 @@ $(window).scroll(function () {
     if(scrollNow > 0){
 
         $('.Banner_title').removeClass(fadeIn);
+      
 
 
     }else{
 
         $('.Banner_title').addClass(fadeIn);
+      
 
     }
 
